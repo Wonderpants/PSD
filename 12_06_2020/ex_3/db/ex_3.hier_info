@@ -1,0 +1,10 @@
+|ex_3
+clk => present_state.CLK
+reset => present_state.ACLR
+subir => next_state.OUTPUTSELECT
+subir => saida.DATAB
+descer => next_state.OUTPUTSELECT
+descer => saida.DATAA
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+

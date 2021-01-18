@@ -1,0 +1,13 @@
+|exercisio1
+entrada => ~NO_FANOUT~
+saida => ~NO_FANOUT~
+clock => lot_maxima~reg0.CLK
+clock => proximo_estado~1.DATAIN
+reset => proximo_estado.st4.OUTPUTSELECT
+reset => proximo_estado.st3.OUTPUTSELECT
+reset => proximo_estado.st2.OUTPUTSELECT
+reset => proximo_estado.st1.OUTPUTSELECT
+reset => proximo_estado.st0.OUTPUTSELECT
+lot_maxima <= lot_maxima~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,25 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "MOOre_Ot",
+					"strict" : false
+				},
+				{
+					"name" : "gERa",
+					"strict" : false
+				},
+				{
+					"name" : "CLk",
+					"strict" : false
+				},
+				{
+					"name" : "ReSet",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

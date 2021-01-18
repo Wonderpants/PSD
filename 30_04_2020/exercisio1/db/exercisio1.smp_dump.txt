@@ -1,0 +1,8 @@
+
+State Machine - |exercisio1|proximo_estado
+Name proximo_estado.st4 proximo_estado.st3 proximo_estado.st2 proximo_estado.st1 proximo_estado.st0 
+proximo_estado.st0 0 0 0 0 0 
+proximo_estado.st1 0 0 0 1 1 
+proximo_estado.st2 0 0 1 0 1 
+proximo_estado.st3 0 1 0 0 1 
+proximo_estado.st4 1 0 0 0 1 

@@ -1,0 +1,15 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/User/Desktop/PSD/04_06_2020/ex_3/ex_3.vhd
+source_file = 1, C:/Users/User/Desktop/PSD/04_06_2020/ex_3/Waveform.vwf
+source_file = 1, d:/intelfpga_lite/19.1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, d:/intelfpga_lite/19.1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, d:/intelfpga_lite/19.1/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, d:/intelfpga_lite/19.1/quartus/libraries/vhdl/ieee/timing_p.vhd
+source_file = 1, C:/Users/User/Desktop/PSD/04_06_2020/ex_3/db/ex_3.cbx.xml
+design_name = ex_3
+instance = comp, \luzes~output\, luzes~output, ex_3, 1
+instance = comp, \portas[1]~input\, portas[1]~input, ex_3, 1
+instance = comp, \portas[0]~input\, portas[0]~input, ex_3, 1
+instance = comp, \portas[2]~input\, portas[2]~input, ex_3, 1
+instance = comp, \luzes~0\, luzes~0, ex_3, 1
+instance = comp, \~QUARTUS_CREATED_GND~I\, ~QUARTUS_CREATED_GND~I, ex_3, 1

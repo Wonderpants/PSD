@@ -1,0 +1,33 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "outMoore[1]",
+					"strict" : false
+				},
+				{
+					"name" : "outMoore[2]",
+					"strict" : false
+				},
+				{
+					"name" : "max[1]",
+					"strict" : false
+				},
+				{
+					"name" : "max[0]",
+					"strict" : false
+				},
+				{
+					"name" : "max[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Clk",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

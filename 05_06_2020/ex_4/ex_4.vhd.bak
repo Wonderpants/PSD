@@ -1,0 +1,17 @@
+-- Um alarme deve sinalizar sempre que pelo
+-- menos 2 dos 3 sensores disponíveis ficarem
+-- ativos. apresentar o código respetivo em VHDL.
+
+LIBRARY IEEE;
+USE IEEE.STD_LOGIC_1164.ALL;
+
+entity ex_4 is 
+	port(
+		sensores: std_logic_vector(2 downto 0);
+		saida: out std_logic
+	);
+end ex_4;
+
+architecture ex4 of ex_4 is begin
+	saida <= sensores(0) and sensores(1) or sensores(0) and sensores(2) or sensores(1) and sensores(2);
+end architecture ex4;

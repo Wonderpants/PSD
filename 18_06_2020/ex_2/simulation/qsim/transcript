@@ -1,0 +1,51 @@
+# do ex_2.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:16:33 on Jun 18,2020
+# vcom -work work ex_2.vho 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package dffeas_pack
+# -- Loading package altera_primitives_components
+# -- Loading package altera_lnsim_components
+# -- Loading package cyclonev_atom_pack
+# -- Loading package cyclonev_components
+# -- Compiling entity ex_2
+# -- Compiling architecture structure of ex_2
+# End time: 15:16:34 on Jun 18,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:16:34 on Jun 18,2020
+# vcom -work work Waveform.vwf.vht 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity ex_2_vhd_vec_tst
+# -- Compiling architecture ex_2_arch of ex_2_vhd_vec_tst
+# End time: 15:16:34 on Jun 18,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -novopt -c -t 1ps -L cyclonev -L altera -L altera_mf -L 220model -L sgate -L altera_lnsim work.ex_2_vhd_vec_tst 
+# Start time: 15:16:34 on Jun 18,2020
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.ex_2_vhd_vec_tst(ex_2_arch)
+# Loading ieee.vital_timing(body)
+# Loading ieee.vital_primitives(body)
+# Loading altera.dffeas_pack
+# Loading altera.altera_primitives_components
+# Loading altera_lnsim.altera_lnsim_components
+# Loading cyclonev.cyclonev_atom_pack(body)
+# Loading cyclonev.cyclonev_components
+# Loading work.ex_2(structure)
+# Loading ieee.std_logic_arith(body)
+# Loading cyclonev.cyclonev_io_obuf(arch)
+# Loading cyclonev.cyclonev_io_ibuf(arch)
+# Loading cyclonev.cyclonev_lcell_comb(vital_lcell_comb)
+# Loading altera.dffeas(vital_dffeas)
+# after#34
+# End time: 15:16:34 on Jun 18,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0

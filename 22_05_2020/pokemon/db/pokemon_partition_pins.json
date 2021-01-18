@@ -1,0 +1,37 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "pk_winA",
+					"strict" : false
+				},
+				{
+					"name" : "pk_winB",
+					"strict" : false
+				},
+				{
+					"name" : "pk_tie",
+					"strict" : false
+				},
+				{
+					"name" : "jogadorA[1]",
+					"strict" : false
+				},
+				{
+					"name" : "jogadorB[1]",
+					"strict" : false
+				},
+				{
+					"name" : "jogadorA[0]",
+					"strict" : false
+				},
+				{
+					"name" : "jogadorB[0]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

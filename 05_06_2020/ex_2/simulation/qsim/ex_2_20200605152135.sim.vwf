@@ -1,0 +1,269 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+
+/*
+Copyright (C) 2019  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
+*/
+
+HEADER
+{
+	VERSION = 1;
+	TIME_UNIT = ns;
+	DATA_OFFSET = 0.0;
+	DATA_DURATION = 10.0;
+	SIMULATION_TIME = 0.0;
+	GRID_PHASE = 0.0;
+	GRID_PERIOD = 1.0;
+	GRID_DUTY_CYCLE = 50;
+}
+
+SIGNAL("bit1")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("bit2")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = INPUT;
+	PARENT = "";
+}
+
+SIGNAL("saida")
+{
+	VALUE_TYPE = NINE_LEVEL_BIT;
+	SIGNAL_TYPE = SINGLE_BIT;
+	WIDTH = 1;
+	LSB_INDEX = -1;
+	DIRECTION = OUTPUT;
+	PARENT = "";
+}
+
+TRANSITION_LIST("bit1")
+{
+	NODE
+	{
+		REPEAT = 1;
+		NODE
+		{
+			REPEAT = 1;
+			LEVEL 0 FOR 0.984;
+			LEVEL 1 FOR 0.88;
+			LEVEL 0 FOR 0.154;
+			LEVEL 1 FOR 0.18;
+			LEVEL 0 FOR 0.32;
+			LEVEL 1 FOR 0.18;
+			LEVEL 0 FOR 0.302;
+			LEVEL 1 FOR 0.127;
+			LEVEL 0 FOR 0.15;
+			LEVEL 1 FOR 0.183;
+			LEVEL 0 FOR 0.15;
+			LEVEL 1 FOR 0.183;
+			LEVEL 0 FOR 0.15;
+			LEVEL 1 FOR 0.127;
+			LEVEL 0 FOR 0.33;
+			LEVEL 1 FOR 0.17;
+			LEVEL 0 FOR 0.33;
+			LEVEL 1 FOR 0.1;
+			LEVEL 0 FOR 0.089;
+			LEVEL 1 FOR 0.185;
+			LEVEL 0 FOR 0.315;
+			LEVEL 1 FOR 0.185;
+			LEVEL 0 FOR 0.483;
+			LEVEL 1 FOR 0.225;
+			LEVEL 0 FOR 0.275;
+			LEVEL 1 FOR 0.225;
+			LEVEL 0 FOR 0.395;
+			LEVEL 1 FOR 0.38;
+			LEVEL 0 FOR 0.764;
+			LEVEL 1 FOR 0.45;
+			LEVEL 0 FOR 0.535;
+			LEVEL 1 FOR 0.35;
+			LEVEL 0 FOR 0.144;
+		}
+	}
+}
+
+TRANSITION_LIST("bit2")
+{
+	NODE
+	{
+		REPEAT = 1;
+		NODE
+		{
+			REPEAT = 1;
+			LEVEL 0 FOR 0.275;
+			LEVEL 1 FOR 0.306;
+			LEVEL 0 FOR 0.36;
+			LEVEL 1 FOR 0.306;
+			LEVEL 0 FOR 0.36;
+			LEVEL 1 FOR 0.306;
+			LEVEL 0 FOR 0.087;
+			LEVEL 1 FOR 0.307;
+			LEVEL 0 FOR 0.333;
+			LEVEL 1 FOR 0.333;
+			LEVEL 0 FOR 0.333;
+			LEVEL 1 FOR 0.333;
+			LEVEL 0 FOR 0.333;
+			LEVEL 1 FOR 0.257;
+			LEVEL 0 FOR 0.69;
+			LEVEL 1 FOR 0.081;
+			LEVEL 0 FOR 0.061;
+			LEVEL 1 FOR 0.39;
+			LEVEL 0 FOR 0.549;
+			LEVEL 1 FOR 0.271;
+			LEVEL 0 FOR 0.64;
+			LEVEL 1 FOR 0.089;
+			LEVEL 0 FOR 0.076;
+			LEVEL 1 FOR 0.165;
+			LEVEL 0 FOR 0.335;
+			LEVEL 1 FOR 0.165;
+			LEVEL 0 FOR 0.724;
+			LEVEL 1 FOR 0.31;
+			LEVEL 0 FOR 0.225;
+			LEVEL 1 FOR 0.157;
+			LEVEL 0 FOR 0.17;
+			LEVEL 1 FOR 0.163;
+			LEVEL 0 FOR 0.17;
+			LEVEL 1 FOR 0.163;
+			LEVEL 0 FOR 0.17;
+			LEVEL 1 FOR 0.007;
+		}
+	}
+}
+
+TRANSITION_LIST("saida")
+{
+	NODE
+	{
+		REPEAT = 1;
+		NODE
+		{
+			REPEAT = 1;
+			LEVEL 1 FOR 0.275;
+			LEVEL 0 FOR 0.306;
+			LEVEL 1 FOR 0.36;
+			LEVEL 0 FOR 0.043;
+			LEVEL 1 FOR 0.263;
+			LEVEL 0 FOR 0.36;
+			LEVEL 1 FOR 0.257;
+			LEVEL 0 FOR 0.049;
+			LEVEL 1 FOR 0.087;
+			LEVEL 0 FOR 0.018;
+			LEVEL 1 FOR 0.18;
+			LEVEL 0 FOR 0.109;
+			LEVEL 1 FOR 0.211;
+			LEVEL 0 FOR 0.122;
+			LEVEL 1 FOR 0.058;
+			LEVEL 0 FOR 0.275;
+			LEVEL 1 FOR 0.027;
+			LEVEL 0 FOR 0.127;
+			LEVEL 1 FOR 0.15;
+			LEVEL 0 FOR 0.029;
+			LEVEL 1 FOR 0.154;
+			LEVEL 0 FOR 0.15;
+			LEVEL 1 FOR 0.029;
+			LEVEL 0 FOR 0.154;
+			LEVEL 1 FOR 0.15;
+			LEVEL 0 FOR 0.029;
+			LEVEL 1 FOR 0.098;
+			LEVEL 0 FOR 0.159;
+			LEVEL 1 FOR 0.171;
+			LEVEL 0 FOR 0.17;
+			LEVEL 1 FOR 0.33;
+			LEVEL 0 FOR 0.019;
+			LEVEL 1 FOR 0.142;
+			LEVEL 0 FOR 0.028;
+			LEVEL 1 FOR 0.185;
+			LEVEL 0 FOR 0.177;
+			LEVEL 1 FOR 0.138;
+			LEVEL 0 FOR 0.185;
+			LEVEL 1 FOR 0.226;
+			LEVEL 0 FOR 0.257;
+			LEVEL 1 FOR 0.014;
+			LEVEL 0 FOR 0.211;
+			LEVEL 1 FOR 0.275;
+			LEVEL 0 FOR 0.154;
+			LEVEL 1 FOR 0.071;
+			LEVEL 0 FOR 0.018;
+			LEVEL 1 FOR 0.076;
+			LEVEL 0 FOR 0.165;
+			LEVEL 1 FOR 0.136;
+			LEVEL 0 FOR 0.199;
+			LEVEL 1 FOR 0.165;
+			LEVEL 0 FOR 0.016;
+			LEVEL 1 FOR 0.708;
+			LEVEL 0 FOR 0.056;
+			LEVEL 1 FOR 0.254;
+			LEVEL 0 FOR 0.196;
+			LEVEL 1 FOR 0.029;
+			LEVEL 0 FOR 0.157;
+			LEVEL 1 FOR 0.17;
+			LEVEL 0 FOR 0.163;
+			LEVEL 1 FOR 0.016;
+			LEVEL 0 FOR 0.154;
+			LEVEL 1 FOR 0.163;
+			LEVEL 0 FOR 0.033;
+			LEVEL 1 FOR 0.137;
+			LEVEL 0 FOR 0.007;
+		}
+	}
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "bit1";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 0;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "bit2";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 1;
+	TREE_LEVEL = 0;
+}
+
+DISPLAY_LINE
+{
+	CHANNEL = "saida";
+	EXPAND_STATUS = COLLAPSED;
+	RADIX = Binary;
+	TREE_INDEX = 2;
+	TREE_LEVEL = 0;
+}
+
+TIME_BAR
+{
+	TIME = 0;
+	MASTER = TRUE;
+}
+;

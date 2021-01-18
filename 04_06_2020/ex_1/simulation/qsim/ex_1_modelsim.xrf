@@ -1,0 +1,11 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/User/Desktop/PSD/04_06_2020/ex_1/ex_1.vhd
+source_file = 1, d:/intelfpga_lite/19.1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, d:/intelfpga_lite/19.1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, d:/intelfpga_lite/19.1/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, d:/intelfpga_lite/19.1/quartus/libraries/vhdl/ieee/timing_p.vhd
+source_file = 1, C:/Users/User/Desktop/PSD/04_06_2020/ex_1/db/ex_1.cbx.xml
+design_name = ex_1
+instance = comp, \P~output\, P~output, ex_1, 1
+instance = comp, \sensor~input\, sensor~input, ex_1, 1
+instance = comp, \~QUARTUS_CREATED_GND~I\, ~QUARTUS_CREATED_GND~I, ex_1, 1

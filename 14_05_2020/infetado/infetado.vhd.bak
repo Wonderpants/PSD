@@ -1,0 +1,71 @@
+-- Mealy Implementation
+
+ 
+
+library ieee;
+use ieee.std_logic_1164.all; 
+
+ 
+
+entity infetado is
+port(
+    clk : in std_logic;
+    in1 : in std_logic;
+     -- Assumir que:
+     -- 1 - Avança no estado
+     -- 0 - Fica no mesmo estado
+    Mealy_tick: out std_logic );
+end infetado;
+
+ 
+
+architecture arch of infetado is 
+    
+    type stateMealy_type is (t, f, bd); -- 3 estados Mealy
+    signal present_state, next_state : stateMealy_type;
+    
+begin   
+    process(clk)
+    begin
+        if (clk'event and clk = '1') then
+            present_state <= next_state;
+        else
+            null;
+        end if; 
+    end process;
+    
+    -- Mealy
+    process(present_state, in1)
+    begin 
+        next_state <= present_state;
+        
+        Mealy_tick <= '0';
+        case present_state is 
+            when t => 
+                if in1 = '1' then
+                    next_state <= f;
+                    Mealy_tick <= '0';
+                end if;
+                     
+                when f =>
+                if in1 = '1' then
+                    next_state <= bd;
+                else
+                    next_state <= t;
+                end if; 
+                     Mealy_tick <= '0';
+                     
+                when bd =>
+                if in1 = '1' then
+                    next_state <= t;
+                    Mealy_tick <= '1';
+                     else
+                    next_state <= t;
+                    Mealy_tick <= '0';
+                end if; 
+
+ 
+
+        end case; 
+    end process;
+end arch; 

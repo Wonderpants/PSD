@@ -1,0 +1,66 @@
+-- Apresentar o código VHDL para:
+-- - Parque de estacionamento
+-- (entrada e saída distintas);
+-- Semáforo verde = livre,
+-- vermelho = cheio.
+-- Lotação: 5 carros.
+
+LIBRARY ieee;
+USE ieee.std_logic_1164.ALL;
+
+entity ex1 is
+	port (
+		clk, reset: in std_logic;
+		entrada: in std_logic;
+		saida: in std_logic;
+		verde: out std_logic;
+		vermelho: out std_logic
+	);
+end entity ex1;
+
+architecture arch of ex1 is
+	type stateMoore is (st0, st1, st2, st3, st4);
+	signal ps, ns: stateMoore;
+	
+	begin
+	process(clk, reset)
+	begin
+		if (reset = '1') then
+			ps <= st0;
+		elsif (clk'event and clk='1') then
+			ps <= ns;
+		else null;
+		end if;
+	end process;
+
+	process (ps, clk)
+		ns <= ps;
+		saida <= '0';
+		case ps is
+			when st0 =>
+				if entrada <= '1' then
+					ns <= st1;
+				elsif saida <='1' then
+					ns <= st0;
+				end if;
+			when st1 =>
+				if entrada <= '1' then
+					ns <= st2;
+				elsif saida <='1' then
+					ns <= st1;
+				end if;
+			when st2 =>
+				if entrada <= '1' then
+					ns <= st3;
+				elsif saida <='1' then
+					ns <= st2;
+				end if;
+			when st3 =>
+				if entrada <= '1' then
+					ns <= st4;
+				elsif saida <='1' then
+					ns <= st3;
+				end if;
+			end case;
+		end process;
+end architecture arch;

@@ -1,0 +1,83 @@
+library ieee;
+use ieee.std_logic_1164.all; 
+
+entity dado    
+is
+port(
+    clk, reset : in std_logic;
+    joga : in std_logic;
+    Moore_ot: out std_logic_vector (6 downto 0) );
+end dado;
+
+architecture arch of dado is 
+    type stateMoore_type is (um, dois, tres, quatro, cinco, seis); 
+    signal stateMoore_reg, stateMoore_next : stateMoore_type;
+    
+begin   
+    process(clk, reset)
+    begin
+        if (reset = '1') then 
+            stateMoore_reg <= um;
+        elsif (clk'event and clk = '1') then 
+            stateMoore_reg <= stateMoore_next;
+        else
+            null;
+        end if; 
+    end process;
+     process(stateMoore_reg, joga)
+begin 
+        
+        stateMoore_next <= stateMoore_reg; 
+        
+        case stateMoore_reg is 
+            when um =>   
+                if joga = '1' then  
+                    stateMoore_next <= dois; 
+                ELSE 
+                    stateMoore_next <= um;
+                          Moore_ot <= "0001000";
+                end if; 
+            
+                when dois =>  
+                if joga = '1' then 
+                    stateMoore_next <= tres; 
+                else 
+                    stateMoore_next <= dois;
+                          Moore_ot <= "1000001"; 
+                end if;
+                
+                when tres =>  
+                if joga = '1' then 
+                    stateMoore_next <= quatro; 
+                else 
+                    stateMoore_next <= tres;
+                          Moore_ot <= "1001001"; 
+                end if;
+                     
+                when quatro =>  
+                if joga = '1' then 
+                    stateMoore_next <= cinco; 
+                else 
+                    stateMoore_next <= quatro;
+                          Moore_ot <= "1010101"; 
+                end if;
+                     
+                when cinco =>  
+                if joga = '1' then 
+                    stateMoore_next <= seis; 
+                else 
+                    stateMoore_next <= cinco;
+                          Moore_ot <= "1011101"; 
+                end if;
+                     
+                when seis =>  
+                if joga = '1' then 
+                    stateMoore_next <= um; 
+                else 
+                    stateMoore_next <= seis;
+                          Moore_ot <= "1110111"; 
+                end if;
+                
+        end case; 
+    end process;  
+end arch;

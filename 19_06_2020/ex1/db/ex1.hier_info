@@ -1,0 +1,13 @@
+|ex1
+clk => ~NO_FANOUT~
+reset => ps.st0.OUTPUTSELECT
+reset => ps.st1.OUTPUTSELECT
+reset => ps.st2.OUTPUTSELECT
+reset => ps.st3.OUTPUTSELECT
+reset => ps.st4.OUTPUTSELECT
+entrada => ~NO_FANOUT~
+saida => ~NO_FANOUT~
+verde <= verde.DB_MAX_OUTPUT_PORT_TYPE
+vermelho <= vermelho.DB_MAX_OUTPUT_PORT_TYPE
+
+

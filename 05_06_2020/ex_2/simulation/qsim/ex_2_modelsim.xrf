@@ -1,0 +1,14 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/User/Desktop/PSD/05_06_2020/ex_2/ex_2.vhd
+source_file = 1, C:/Users/User/Desktop/PSD/05_06_2020/ex_2/Waveform.vwf
+source_file = 1, d:/intelfpga_lite/19.1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, d:/intelfpga_lite/19.1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, d:/intelfpga_lite/19.1/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, d:/intelfpga_lite/19.1/quartus/libraries/vhdl/ieee/timing_p.vhd
+source_file = 1, C:/Users/User/Desktop/PSD/05_06_2020/ex_2/db/ex_2.cbx.xml
+design_name = ex_2
+instance = comp, \saida~output\, saida~output, ex_2, 1
+instance = comp, \bit2~input\, bit2~input, ex_2, 1
+instance = comp, \bit1~input\, bit1~input, ex_2, 1
+instance = comp, \saida~0\, saida~0, ex_2, 1
+instance = comp, \~QUARTUS_CREATED_GND~I\, ~QUARTUS_CREATED_GND~I, ex_2, 1

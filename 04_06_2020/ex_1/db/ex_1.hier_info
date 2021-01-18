@@ -1,0 +1,5 @@
+|ex_1
+sensor => P.DATAIN
+P <= sensor.DB_MAX_OUTPUT_PORT_TYPE
+
+

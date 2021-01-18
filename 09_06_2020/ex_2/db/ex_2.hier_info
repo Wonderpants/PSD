@@ -1,0 +1,10 @@
+|ex_2
+clk => present_state.CLK
+reset => present_state.ACLR
+entrada => next_state.OUTPUTSELECT
+entrada => next_state.OUTPUTSELECT
+entrada => saida.DATAB
+entrada => saida.DATAA
+saida << saida.DB_MAX_OUTPUT_PORT_TYPE
+
+

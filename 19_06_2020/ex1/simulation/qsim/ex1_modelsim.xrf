@@ -1,0 +1,16 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/User/Desktop/PSD/19_06_2020/ex1/ex1.vhd
+source_file = 1, C:/Users/User/Desktop/PSD/19_06_2020/ex1/Waveform.vwf
+source_file = 1, d:/intelfpga_lite/19.1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, d:/intelfpga_lite/19.1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, d:/intelfpga_lite/19.1/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, d:/intelfpga_lite/19.1/quartus/libraries/vhdl/ieee/timing_p.vhd
+source_file = 1, C:/Users/User/Desktop/PSD/19_06_2020/ex1/db/ex1.cbx.xml
+design_name = ex1
+instance = comp, \verde~output\, verde~output, ex1, 1
+instance = comp, \vermelho~output\, vermelho~output, ex1, 1
+instance = comp, \clk~input\, clk~input, ex1, 1
+instance = comp, \reset~input\, reset~input, ex1, 1
+instance = comp, \entrada~input\, entrada~input, ex1, 1
+instance = comp, \saida~input\, saida~input, ex1, 1
+instance = comp, \~QUARTUS_CREATED_GND~I\, ~QUARTUS_CREATED_GND~I, ex1, 1

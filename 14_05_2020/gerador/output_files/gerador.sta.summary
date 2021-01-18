@@ -1,0 +1,101 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1100mV 85C Model Setup 'gERa'
+Slack : -2.494
+TNS   : -2.494
+
+Type  : Slow 1100mV 85C Model Setup 'CLk'
+Slack : -2.418
+TNS   : -2.418
+
+Type  : Slow 1100mV 85C Model Hold 'CLk'
+Slack : 0.971
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'gERa'
+Slack : 1.113
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'CLk'
+Slack : -0.724
+TNS   : -1.113
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'gERa'
+Slack : 0.308
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Setup 'CLk'
+Slack : -2.493
+TNS   : -2.493
+
+Type  : Slow 1100mV 0C Model Setup 'gERa'
+Slack : -2.369
+TNS   : -2.369
+
+Type  : Slow 1100mV 0C Model Hold 'CLk'
+Slack : 0.900
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'gERa'
+Slack : 0.978
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'CLk'
+Slack : -0.724
+TNS   : -1.118
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'gERa'
+Slack : 0.326
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Setup 'CLk'
+Slack : -1.467
+TNS   : -1.467
+
+Type  : Fast 1100mV 85C Model Setup 'gERa'
+Slack : -0.516
+TNS   : -0.516
+
+Type  : Fast 1100mV 85C Model Hold 'gERa'
+Slack : 0.244
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'CLk'
+Slack : 0.278
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'CLk'
+Slack : -0.187
+TNS   : -0.187
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'gERa'
+Slack : 0.115
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Setup 'CLk'
+Slack : -1.405
+TNS   : -1.405
+
+Type  : Fast 1100mV 0C Model Setup 'gERa'
+Slack : -0.377
+TNS   : -0.377
+
+Type  : Fast 1100mV 0C Model Hold 'gERa'
+Slack : 0.158
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'CLk'
+Slack : 0.260
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'CLk'
+Slack : -0.212
+TNS   : -0.212
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'gERa'
+Slack : 0.093
+TNS   : 0.000
+
+------------------------------------------------------------

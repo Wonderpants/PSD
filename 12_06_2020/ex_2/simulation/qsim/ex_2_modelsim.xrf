@@ -1,0 +1,17 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/User/Desktop/PSD/12_06_2020/ex_2/ex_2.vhd
+source_file = 1, C:/Users/User/Desktop/PSD/12_06_2020/ex_2/Waveform.vwf
+source_file = 1, d:/intelfpga_lite/19.1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, d:/intelfpga_lite/19.1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, d:/intelfpga_lite/19.1/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, d:/intelfpga_lite/19.1/quartus/libraries/vhdl/ieee/timing_p.vhd
+source_file = 1, C:/Users/User/Desktop/PSD/12_06_2020/ex_2/db/ex_2.cbx.xml
+design_name = ex_2
+instance = comp, \Moore_tick[0]~output\, Moore_tick[0]~output, ex_2, 1
+instance = comp, \Moore_tick[1]~output\, Moore_tick[1]~output, ex_2, 1
+instance = comp, \conta~input\, conta~input, ex_2, 1
+instance = comp, \clk~input\, clk~input, ex_2, 1
+instance = comp, \present_state~feeder\, present_state~feeder, ex_2, 1
+instance = comp, \reset~input\, reset~input, ex_2, 1
+instance = comp, \Moore_tick~0\, Moore_tick~0, ex_2, 1
+instance = comp, \~QUARTUS_CREATED_GND~I\, ~QUARTUS_CREATED_GND~I, ex_2, 1

@@ -1,0 +1,9 @@
+|gerador
+CLk => STATEMoORE_reg.CLK
+ReSet => STATEMoORE_reg.ACLR
+gERa => StateMOORE_NExT.DATAB
+gERa => StateMOORE_NExT.DATAA
+gERa => MOOre_Ot$latch.LATCH_ENABLE
+MOOre_Ot <= MOOre_Ot$latch.DB_MAX_OUTPUT_PORT_TYPE
+
+

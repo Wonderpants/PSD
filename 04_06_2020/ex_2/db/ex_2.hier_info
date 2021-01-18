@@ -1,0 +1,5 @@
+|ex_2
+Clk => ~NO_FANOUT~
+saida <= <VCC>
+
+

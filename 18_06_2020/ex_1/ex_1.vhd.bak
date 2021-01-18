@@ -1,0 +1,47 @@
+library ieee;
+use ieee.std_logic_1164.all; 
+
+entity ex_1 is
+port(
+    clk, reset : in std_logic;
+    level : in std_logic;
+    Mealy_tick: out std_logic 
+);
+end ex_1;
+
+architecture arch of ex_1 is
+	type stateMealy_type is (zero, one);
+	signal stateMealy_reg, stateMealy_next : stateMealy_type;
+	
+	begin
+		process(clk, reset)
+    begin
+        if (reset = '1') then -- go to state zero if reset
+            stateMealy_reg <= zero;
+        elsif (clk'event and clk = '1') then -- otherwise update the states
+            stateMealy_reg <= stateMealy_next;
+        else
+            null;
+        end if; 
+    end process;
+	 
+	 -- Mealy Design
+    process(stateMealy_reg, level)
+    begin 
+        -- store current state as next
+        stateMealy_next <= stateMealy_reg; --required: when no case statement is satisfied
+        
+        Mealy_tick <= '0';  -- set tick to zero (so that 'tick = 1' is available for 1 cycle only)
+        case stateMealy_reg is 
+            when zero =>  -- set 'tick = 1' if state = zero and level = '1'
+                if level = '1' then -- if level is 1, then go to state one,
+                    stateMealy_next <= one; -- otherwise remain in same state.
+                    Mealy_tick <= '1';
+                end if; 
+            when one =>  
+                if level = '0' then  -- if level is 0, then go to zero state,
+                    stateMealy_next <= zero; -- otherwise remain in one state.
+                end if;
+        end case; 
+    end process;
+end arch;

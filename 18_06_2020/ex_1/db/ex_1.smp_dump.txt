@@ -1,0 +1,6 @@
+
+State Machine - |ex_1|stateMealy_reg
+Name stateMealy_reg.c stateMealy_reg.b stateMealy_reg.a 
+stateMealy_reg.a 0 0 0 
+stateMealy_reg.b 0 1 1 
+stateMealy_reg.c 1 0 1 

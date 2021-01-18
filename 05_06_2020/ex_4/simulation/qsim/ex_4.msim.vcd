@@ -1,0 +1,241 @@
+$comment
+	File created using the following command:
+		vcd file ex_4.msim.vcd -direction
+$end
+$date
+	Fri Jun 05 15:49:33 2020
+$end
+$version
+	ModelSim Version 10.5b
+$end
+$timescale
+	1ps
+$end
+
+$scope module ex_4_vhd_vec_tst $end
+$var wire 1 ! saida $end
+$var wire 1 " sensores [2] $end
+$var wire 1 # sensores [1] $end
+$var wire 1 $ sensores [0] $end
+
+$scope module i1 $end
+$var wire 1 % gnd $end
+$var wire 1 & vcc $end
+$var wire 1 ' unknown $end
+$var wire 1 ( devoe $end
+$var wire 1 ) devclrn $end
+$var wire 1 * devpor $end
+$var wire 1 + ww_devoe $end
+$var wire 1 , ww_devclrn $end
+$var wire 1 - ww_devpor $end
+$var wire 1 . ww_sensores [2] $end
+$var wire 1 / ww_sensores [1] $end
+$var wire 1 0 ww_sensores [0] $end
+$var wire 1 1 ww_saida $end
+$var wire 1 2 \~QUARTUS_CREATED_GND~I_combout\ $end
+$var wire 1 3 \sensores[2]~input_o\ $end
+$var wire 1 4 \sensores[0]~input_o\ $end
+$var wire 1 5 \sensores[1]~input_o\ $end
+$var wire 1 6 \saida~0_combout\ $end
+$var wire 1 7 \ALT_INV_sensores[1]~input_o\ $end
+$var wire 1 8 \ALT_INV_sensores[2]~input_o\ $end
+$var wire 1 9 \ALT_INV_sensores[0]~input_o\ $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+0%
+1&
+x'
+1(
+1)
+1*
+1+
+1,
+1-
+01
+x2
+13
+04
+05
+06
+17
+08
+19
+1"
+0#
+0$
+1.
+0/
+00
+$end
+#500
+1#
+1/
+15
+07
+16
+11
+1!
+#1000
+0#
+0/
+05
+17
+06
+01
+0!
+#1500
+1#
+0"
+1$
+10
+1/
+0.
+03
+15
+14
+09
+07
+18
+16
+11
+1!
+#2500
+0#
+1"
+0$
+00
+0/
+1.
+13
+05
+04
+19
+17
+08
+06
+01
+0!
+#3000
+0"
+0.
+03
+18
+#3500
+1"
+1#
+1$
+10
+1/
+1.
+13
+15
+14
+09
+07
+08
+16
+11
+1!
+#4000
+0"
+0#
+0$
+00
+0/
+0.
+03
+05
+04
+19
+17
+18
+06
+01
+0!
+#4500
+1#
+1/
+15
+07
+#5000
+0#
+1"
+0/
+1.
+13
+05
+17
+08
+#5500
+1#
+0"
+1/
+0.
+03
+15
+07
+18
+#6000
+0#
+1"
+0/
+1.
+13
+05
+17
+08
+#6500
+1#
+1$
+10
+1/
+15
+14
+09
+07
+16
+11
+1!
+#7500
+0#
+0$
+00
+0/
+05
+04
+19
+17
+06
+01
+0!
+#8000
+1#
+0"
+1/
+0.
+03
+15
+07
+18
+#9000
+0#
+1"
+0/
+1.
+13
+05
+17
+08
+#9500
+1$
+10
+14
+09
+16
+11
+1!
+#10000

@@ -1,0 +1,25 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "Moore_tick[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Moore_tick[2]",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "reset",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

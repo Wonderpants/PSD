@@ -1,0 +1,26 @@
+LIBRARY ieee;
+USE ieee.std_logic_1164.ALL;
+
+ENTITY ex1 IS
+	PORT
+	(
+		clk, reset : IN std_logic;
+		Moore_ot   : OUT std_logic
+	);
+END ex1;
+
+ARCHITECTURE arch OF ex1 IS
+	TYPE stateMoore_type IS (zero, um, dois);
+	SIGNAL stateMoore_reg, stateMoore_next : stateMoore_type;
+BEGIN
+	process(clk, reset)
+	begin
+		if (reset='1') then
+			stateMoore_reg <= zero;
+		elsif (clk'event and clk = '1') then
+			stateMoore_reg <= stateMoore_next;
+		else
+			null;
+		end if;
+	end process;
+END arch;

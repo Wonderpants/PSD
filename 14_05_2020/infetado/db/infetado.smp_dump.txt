@@ -1,0 +1,6 @@
+
+State Machine - |infetado|present_state
+Name present_state.bd present_state.f present_state.t 
+present_state.t 0 0 0 
+present_state.f 0 1 1 
+present_state.bd 1 0 1 

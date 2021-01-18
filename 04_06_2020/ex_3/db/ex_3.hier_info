@@ -1,0 +1,7 @@
+|ex_3
+portas[0] => luzes.IN0
+portas[1] => luzes.IN1
+portas[2] => luzes.IN1
+luzes <= luzes.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,18 @@
+|pokemon
+jogadorA[0] => LessThan0.IN2
+jogadorA[0] => LessThan1.IN2
+jogadorA[0] => Equal0.IN1
+jogadorA[1] => LessThan0.IN1
+jogadorA[1] => LessThan1.IN1
+jogadorA[1] => Equal0.IN0
+jogadorB[0] => LessThan0.IN4
+jogadorB[0] => LessThan1.IN4
+jogadorB[0] => Equal0.IN3
+jogadorB[1] => LessThan0.IN3
+jogadorB[1] => LessThan1.IN3
+jogadorB[1] => Equal0.IN2
+pk_winA <= pk_winA$latch.DB_MAX_OUTPUT_PORT_TYPE
+pk_winB <= pk_winB$latch.DB_MAX_OUTPUT_PORT_TYPE
+pk_tie <= pk_tie$latch.DB_MAX_OUTPUT_PORT_TYPE
+
+

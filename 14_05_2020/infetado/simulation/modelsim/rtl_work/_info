@@ -1,0 +1,49 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/User/Desktop/PSD/14_05_2020/infetado/simulation/modelsim
+Einfetado
+Z1 w1589464137
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z4 8C:/Users/User/Desktop/PSD/14_05_2020/infetado/infetado.vhd
+Z5 FC:/Users/User/Desktop/PSD/14_05_2020/infetado/infetado.vhd
+l0
+L4
+VmUa8ogja9ml74l9m7lNWM0
+!s100 gWSY338K1h]E4kT8U_@nz2
+Z6 OV;C;10.5b;63
+31
+!s110 1589464544
+!i10b 1
+Z7 !s108 1589464544.000000
+Z8 !s90 -reportprogress|300|-93|-work|work|C:/Users/User/Desktop/PSD/14_05_2020/infetado/infetado.vhd|
+Z9 !s107 C:/Users/User/Desktop/PSD/14_05_2020/infetado/infetado.vhd|
+!i113 1
+Z10 o-93 -work work
+Z11 tExplicit 1 CvgOpt 0
+Aarch
+R2
+R3
+DEx4 work 8 infetado 0 22 mUa8ogja9ml74l9m7lNWM0
+l16
+L12
+Vmk:Y[B1RA2T1;[k6iaE1=2
+!s100 Kz;_;FN7TTZI3hkkB0SCJ1
+R6
+31
+!s110 1589464545
+!i10b 1
+R7
+R8
+R9
+!i113 1
+R10
+R11

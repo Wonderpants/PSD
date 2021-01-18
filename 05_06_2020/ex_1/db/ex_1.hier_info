@@ -1,0 +1,10 @@
+|ex_1
+entrada[5] => ~NO_FANOUT~
+entrada[4] => ~NO_FANOUT~
+entrada[3] => ~NO_FANOUT~
+entrada[2] => ~NO_FANOUT~
+entrada[1] => ~NO_FANOUT~
+entrada[0] => saida.DATAIN
+saida <= entrada[0].DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,10 @@
+library ieee;
+use ieee.std_logic_1164.all; 
+
+
+entity ex_1 is 
+	port (
+		clk, reset: in std_logic;
+		Moore_tick: out std_logic;
+	);
+end entity ex_1;

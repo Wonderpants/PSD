@@ -1,0 +1,17 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "saida",
+					"strict" : false
+				},
+				{
+					"name" : "genoma[5]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

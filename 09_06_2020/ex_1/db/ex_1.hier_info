@@ -1,0 +1,8 @@
+|ex_1
+clk => present_state~1.DATAIN
+reset => present_state~3.DATAIN
+Moore_tick[0] << <VCC>
+Moore_tick[1] << Moore_tick[1].DB_MAX_OUTPUT_PORT_TYPE
+Moore_tick[2] << Moore_tick[2].DB_MAX_OUTPUT_PORT_TYPE
+
+

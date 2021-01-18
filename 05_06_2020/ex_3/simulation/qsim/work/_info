@@ -1,0 +1,98 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/User/Desktop/PSD/05_06_2020/ex_3/simulation/qsim
+Eex_3
+Z1 w1591367835
+Z2 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z3 DPx8 cyclonev 18 cyclonev_atom_pack 0 22 CX9c^[CNfbzHb3XCH3hoa1
+Z4 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+Z5 DPx8 cyclonev 19 cyclonev_components 0 22 NZ_cKj>1HW_D7i1UeTO[31
+Z6 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z7 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z8 DPx12 altera_lnsim 23 altera_lnsim_components 0 22 6`GHcm:DR>=X_840X1FV;0
+R0
+Z9 8ex_3.vho
+Z10 Fex_3.vho
+l0
+L37
+VMzZ2_MW=DGNMOhUidBhWJ0
+!s100 MjlV4C@[U4=N;3Fbi@Em52
+Z11 OV;C;10.5b;63
+32
+Z12 !s110 1591367836
+!i10b 1
+Z13 !s108 1591367836.000000
+Z14 !s90 -work|work|ex_3.vho|
+Z15 !s107 ex_3.vho|
+!i113 1
+Z16 o-work work
+Z17 tExplicit 1 CvgOpt 0
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+DEx4 work 4 ex_3 0 22 MzZ2_MW=DGNMOhUidBhWJ0
+l82
+L58
+Vfm;cH>C`XTUCZ]]XBZ4n41
+!s100 [DWleW=Q:8Sa?V<6`bKlO0
+R11
+32
+R12
+!i10b 1
+R13
+R14
+R15
+!i113 1
+R16
+R17
+Eex_3_vhd_vec_tst
+Z18 w1591367833
+R6
+R7
+R0
+Z19 8Waveform.vwf.vht
+Z20 FWaveform.vwf.vht
+l0
+L32
+V91QOiMJn[I`DlkHL8ITiI2
+!s100 MCV`9?Eh^R3CPcY6NTiY[2
+R11
+32
+R12
+!i10b 1
+R13
+Z21 !s90 -work|work|Waveform.vwf.vht|
+Z22 !s107 Waveform.vwf.vht|
+!i113 1
+R16
+R17
+Aex_3_arch
+R6
+R7
+Z23 DEx4 work 16 ex_3_vhd_vec_tst 0 22 91QOiMJn[I`DlkHL8ITiI2
+l45
+L34
+Z24 V83nk[]eECN;M;NLmQ]akD1
+Z25 !s100 R:N1z4n3OL17Q419X13k[3
+R11
+32
+R12
+!i10b 1
+R13
+R21
+R22
+!i113 1
+R16
+R17

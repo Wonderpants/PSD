@@ -1,0 +1,7 @@
+|ex_2
+clk => stateMealy_reg.CLK
+reset => stateMealy_reg.ACLR
+x => stateMealy_next.DATAB
+Mealy_tick <= stateMealy_reg.DB_MAX_OUTPUT_PORT_TYPE
+
+

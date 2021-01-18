@@ -1,0 +1,17 @@
+-- Verifique se no genoma de uma analise de
+-- COVID o elemento 5, num conjunto de 10
+-- está ou não ativo.
+
+LIBRARY IEEE;
+USE IEEE.STD_LOGIC_1164.ALL;
+
+entity ex_3 is
+	port (
+		genoma: in std_logic_vector(9 downto 0);
+		saida: out std_logic
+	);
+end ex_3;
+
+architecture ex3 of ex_3 is begin
+	saida <= genoma(5);
+end architecture ex3;

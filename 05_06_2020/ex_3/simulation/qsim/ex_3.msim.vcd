@@ -1,0 +1,381 @@
+$comment
+	File created using the following command:
+		vcd file ex_3.msim.vcd -direction
+$end
+$date
+	Fri Jun 05 15:37:16 2020
+$end
+$version
+	ModelSim Version 10.5b
+$end
+$timescale
+	1ps
+$end
+
+$scope module ex_3_vhd_vec_tst $end
+$var wire 1 ! genoma [9] $end
+$var wire 1 " genoma [8] $end
+$var wire 1 # genoma [7] $end
+$var wire 1 $ genoma [6] $end
+$var wire 1 % genoma [5] $end
+$var wire 1 & genoma [4] $end
+$var wire 1 ' genoma [3] $end
+$var wire 1 ( genoma [2] $end
+$var wire 1 ) genoma [1] $end
+$var wire 1 * genoma [0] $end
+$var wire 1 + saida $end
+
+$scope module i1 $end
+$var wire 1 , gnd $end
+$var wire 1 - vcc $end
+$var wire 1 . unknown $end
+$var wire 1 / devoe $end
+$var wire 1 0 devclrn $end
+$var wire 1 1 devpor $end
+$var wire 1 2 ww_devoe $end
+$var wire 1 3 ww_devclrn $end
+$var wire 1 4 ww_devpor $end
+$var wire 1 5 ww_genoma [9] $end
+$var wire 1 6 ww_genoma [8] $end
+$var wire 1 7 ww_genoma [7] $end
+$var wire 1 8 ww_genoma [6] $end
+$var wire 1 9 ww_genoma [5] $end
+$var wire 1 : ww_genoma [4] $end
+$var wire 1 ; ww_genoma [3] $end
+$var wire 1 < ww_genoma [2] $end
+$var wire 1 = ww_genoma [1] $end
+$var wire 1 > ww_genoma [0] $end
+$var wire 1 ? ww_saida $end
+$var wire 1 @ \genoma[0]~input_o\ $end
+$var wire 1 A \genoma[1]~input_o\ $end
+$var wire 1 B \genoma[2]~input_o\ $end
+$var wire 1 C \genoma[3]~input_o\ $end
+$var wire 1 D \genoma[4]~input_o\ $end
+$var wire 1 E \genoma[6]~input_o\ $end
+$var wire 1 F \genoma[7]~input_o\ $end
+$var wire 1 G \genoma[8]~input_o\ $end
+$var wire 1 H \genoma[9]~input_o\ $end
+$var wire 1 I \~QUARTUS_CREATED_GND~I_combout\ $end
+$var wire 1 J \genoma[5]~input_o\ $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0+
+0,
+1-
+x.
+1/
+10
+11
+12
+13
+14
+0?
+0@
+0A
+0B
+1C
+1D
+0E
+1F
+1G
+0H
+xI
+0J
+0!
+1"
+1#
+0$
+0%
+1&
+1'
+0(
+0)
+0*
+05
+16
+17
+08
+09
+1:
+1;
+0<
+0=
+0>
+$end
+#500
+1!
+0#
+1%
+1*
+1>
+19
+07
+15
+1H
+0F
+1J
+1@
+1?
+1+
+#1000
+1#
+0"
+0&
+1(
+1<
+0:
+17
+06
+0G
+1F
+0D
+1B
+#1500
+1"
+0(
+0!
+1)
+1=
+0<
+16
+05
+0H
+1G
+0B
+1A
+#2000
+1(
+1!
+0#
+0*
+1$
+0'
+0>
+1<
+0;
+18
+07
+15
+1H
+0F
+1E
+0C
+1B
+0@
+#2500
+0(
+1#
+0"
+0%
+0<
+09
+17
+06
+0G
+1F
+0J
+0B
+0?
+0+
+#3000
+1(
+1"
+1*
+0$
+1>
+1<
+08
+16
+1G
+0E
+1B
+1@
+#3500
+0*
+1$
+1%
+0)
+0>
+0=
+19
+18
+1E
+1J
+0A
+0@
+1?
+1+
+#4000
+1*
+1)
+0#
+1>
+1=
+07
+0F
+1A
+1@
+#4500
+0)
+0%
+0(
+1&
+0=
+0<
+1:
+09
+0J
+1D
+0B
+0A
+0?
+0+
+#5000
+1(
+0&
+0*
+1#
+0$
+0!
+0>
+1<
+0:
+08
+17
+05
+0H
+1F
+0E
+0D
+1B
+0@
+#5500
+0(
+0<
+0B
+#6000
+1&
+1$
+1)
+1%
+1=
+1:
+19
+18
+1E
+1J
+1D
+1A
+1?
+1+
+#6500
+0)
+0%
+0#
+1!
+1'
+0=
+1;
+09
+07
+15
+1H
+0F
+0J
+1C
+0A
+0?
+0+
+#7000
+1)
+0'
+1*
+1>
+1=
+0;
+0C
+1A
+1@
+#7500
+0)
+1'
+0*
+1%
+1#
+0!
+0"
+0>
+0=
+1;
+19
+17
+06
+05
+0H
+0G
+1F
+1J
+1C
+0A
+0@
+1?
+1+
+#8000
+1)
+0#
+1!
+1"
+0&
+0$
+1(
+1=
+1<
+0:
+08
+07
+16
+15
+1H
+1G
+0F
+0E
+0D
+1B
+1A
+#8500
+1#
+0"
+1&
+0(
+0<
+1:
+17
+06
+0G
+1F
+1D
+0B
+#9000
+1"
+1*
+1>
+16
+1G
+1@
+#9500
+0"
+1(
+0)
+0'
+0=
+1<
+0;
+06
+0G
+0C
+1B
+0A
+#10000

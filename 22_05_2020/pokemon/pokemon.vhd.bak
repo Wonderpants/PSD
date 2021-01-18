@@ -1,0 +1,23 @@
+Entity pokemons is
+  port (j1 , j2: in integer;
+        pk_dif: out integer
+		);
+end pokemons;
+
+architecture poke of pokemons is
+signal pk_win : string(1 to 28);
+begin
+  x: process (j1,j2)
+  begin
+   if (j1>j2) then
+    pk_dif <= (j1-j2);
+    pk_win <= "O jogador1 tem mais pokemons";
+   else
+    pk_win <= "O jogador2 tem mais pokemons";
+	pk_dif <= (j2-j1);
+   end if;
+  end process;
+ end poke;
+     
+
+       

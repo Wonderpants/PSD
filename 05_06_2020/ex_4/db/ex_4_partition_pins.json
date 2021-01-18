@@ -1,0 +1,25 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "saida",
+					"strict" : false
+				},
+				{
+					"name" : "sensores[0]",
+					"strict" : false
+				},
+				{
+					"name" : "sensores[2]",
+					"strict" : false
+				},
+				{
+					"name" : "sensores[1]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

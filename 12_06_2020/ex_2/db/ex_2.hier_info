@@ -1,0 +1,11 @@
+|ex_2
+clk => present_state.CLK
+reset => present_state.ACLR
+conta => Moore_tick.DATAA
+conta => next_state.DATAB
+conta => Moore_tick.DATAB
+conta => next_state.DATAA
+Moore_tick[0] <= <GND>
+Moore_tick[1] <= Moore_tick.DB_MAX_OUTPUT_PORT_TYPE
+
+

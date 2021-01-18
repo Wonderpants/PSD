@@ -1,0 +1,7 @@
+|ex_3
+clk => ps.CLK
+reset => ps.OUTPUTSELECT
+seq => saida.DATAA
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+

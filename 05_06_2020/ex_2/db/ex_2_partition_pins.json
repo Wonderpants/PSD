@@ -1,0 +1,21 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "saida",
+					"strict" : false
+				},
+				{
+					"name" : "bit1",
+					"strict" : false
+				},
+				{
+					"name" : "bit2",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

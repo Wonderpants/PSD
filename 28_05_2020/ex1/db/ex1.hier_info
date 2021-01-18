@@ -1,0 +1,6 @@
+|ex1
+clk => stateMoore_reg~1.DATAIN
+reset => stateMoore_reg~3.DATAIN
+Moore_ot <= <VCC>
+
+

@@ -1,0 +1,10 @@
+LIBRARY IEEE;
+USE IEEE.STD_LOGIC_1164.ALL;
+ENTITY exercisio1 IS
+    PORT( 
+
+         entrada: IN STD_LOGIC_VECTOR (4 DOWNTO 0);
+         saida: OUT STD_LOGIC
+			);
+
+END exercisio1;

@@ -1,0 +1,6 @@
+
+State Machine - |ex_1|present_state
+Name present_state.seis present_state.quatro present_state.dois 
+present_state.dois 0 0 0 
+present_state.quatro 0 1 1 
+present_state.seis 1 0 1 

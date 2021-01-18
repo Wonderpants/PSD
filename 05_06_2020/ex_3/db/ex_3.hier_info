@@ -1,0 +1,14 @@
+|ex_3
+genoma[0] => ~NO_FANOUT~
+genoma[1] => ~NO_FANOUT~
+genoma[2] => ~NO_FANOUT~
+genoma[3] => ~NO_FANOUT~
+genoma[4] => ~NO_FANOUT~
+genoma[5] => saida.DATAIN
+genoma[6] => ~NO_FANOUT~
+genoma[7] => ~NO_FANOUT~
+genoma[8] => ~NO_FANOUT~
+genoma[9] => ~NO_FANOUT~
+saida <= genoma[5].DB_MAX_OUTPUT_PORT_TYPE
+
+
